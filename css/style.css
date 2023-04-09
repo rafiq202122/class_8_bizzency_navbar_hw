@@ -1,0 +1,83 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ a{
+    text-decoration: none;
+ }
+ ul{
+    list-style: none;
+ }
+ .body{
+    font-family: 'Ubuntu', sans-serif;
+
+ }
+ .container{
+    width: 800px;
+    margin: auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ .align-center{
+   align-items: center;
+ }
+/* HEADER STASTS HERE*/
+header{
+    background-color:#003333;
+    color: white;
+    padding: 18px 0;
+    
+}
+header .row{
+    justify-content: space-between;
+}
+/* HEADER ENDS HERE*/
+/* NAVBAR STARTS HERE*/
+nav .logo{
+   width: 30%;
+}
+nav .menu{
+   width: 70%;
+   text-align: right;
+}
+
+nav .menu li{
+   display: inline-block;
+}
+nav .menu li a{
+   padding: 40px 12px;
+   font-weight: 500;
+   color:#333333 ;
+   display: inline-block;
+   transition: 0.3s;
+}
+nav .menu li:hover a{
+   background-color: #fff9e6;
+   color: #ffc712;
+
+}
+nav .menu ul li span{
+   
+   width: 40px;
+   height: 40px;
+   display: block;
+   line-height: 40px;
+}
+
+
+/* NAVBAR STARTS HERE*/
+
+
+
+
+
+
